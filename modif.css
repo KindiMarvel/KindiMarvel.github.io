@@ -1,0 +1,162 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.container {}
+
+/* ============================NAVBAR============================ */
+
+.container-navbar {
+    background-color: #333;
+    width: 100%;
+    height: 12vh;
+}
+
+.ul-navbar {
+    display: flex;
+    height: 87px;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-navbar {
+    list-style-type: none;
+    padding: 20px;
+    margin: 5px;
+    color: white;
+    font-size: 30px;
+}
+
+.li-navbar:hover {
+    background-color: gray;
+    transition: .2s ease-in-out;
+    transition-delay: .1s;
+    border-radius: 8px;
+}
+
+.a-navbar {
+    color: white;
+    text-decoration: none;
+}
+/* ==============================CONTENT================================ */
+.container-content {
+    background-color: #e7e4e4be;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 78vh;
+}
+
+/* ==============HOME============= */
+.a-content-home{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    width: 20%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.a-content-home:hover {
+    background-color: #4c4c4c;
+    transition: 0.2s ease-in-out;
+    transition-delay: 0.1s;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.img-content-home {
+    width: 90%;
+    height: 89%;
+    border-radius: 20px;
+}
+
+/* ==============ABOUT============= */
+.a-content-about{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    width: 20%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.a-content-about:hover {
+    background-color: #ec78dd;
+    transition: 0.2s ease-in-out;
+    transition-delay: 0.1s;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.img-content-about {
+    width: 80%;
+    height: 90%;
+}
+
+/* ==============CONTACT============= */
+.a-content-contact{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    width: 20%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.a-content-contact:hover {
+    background-color: #1ee965;
+    transition: 0.2s ease-in-out;
+    transition-delay: 0.1s;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.img-content-contact {
+    width: 60%;
+    height: 80%;
+}
+
+/* ============================FOOTER============================= */
+
+.container-footer {
+    height: 10vh;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.h1-footer {
+    font-size: 40px;
+    color: white;
+}
